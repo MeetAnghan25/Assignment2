@@ -17,7 +17,7 @@ namespace Meet_Anghan_A2
             this.length = 1;
         }
 
-        Rectangle(int length1, int width1)
+        public Rectangle(int length1, int width1)
         {
             this.length = length1;
             this.width = width1;
@@ -54,7 +54,5 @@ namespace Meet_Anghan_A2
         {
             return length * width;
         }
-
-      
     }
 }
